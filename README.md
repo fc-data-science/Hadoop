@@ -3,24 +3,23 @@
 <br> Para la implementacion de este contenedor solo basta con descargar (clonar) este repositorio y, proceder a descomprimir en tu maquina local. 
 <br> Luego, desde la linea de comando, ubicate sobre el directorio Hadoop y ejecuta `docker-compose up`
 
-Este video explica como implementar BIG DATA en Amazon Web Services, en una máquina Linux (Ubuntu Server 20.04)
-
 *************************
-Comandos utilizados: (comando sudo puede omitirse si estas como usuario root)
 
-sudo apt update
-sudo apt upgrade
-sudo apt-get install  curl apt-transport-https ca-certificates software-properties-common
-curl -fsSL https://download.docker.com/linux/ubu... | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-sudo apt update
-sudo apt install docker-ce
-sudo curl -L "https://github.com/docker/compose/rel... -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
-sudo apt-get install git
-sudo git clone https://github.com/juliopez/Hadoop.git
-cd Hadoop
-sudo docker-compose up -d
+<br>Implementacion de BigData en Amazon Web Services, en una máquina Linux (Ubuntu Server 20.04)
+<br>Comandos utilizados:
+<br>sudo apt update
+<br>sudo apt upgrade
+<br>sudo apt-get install  curl apt-transport-https ca-certificates software-properties-common
+<br>curl -fsSL https://download.docker.com/linux/ubu... | sudo apt-key add -
+<br>sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+<br>sudo apt update
+<br>sudo apt install docker-ce
+<br>sudo curl -L "https://github.com/docker/compose/rel... -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+<br>sudo chmod +x /usr/local/bin/docker-compose
+<br>sudo apt-get install git
+<br>sudo git clone https://github.com/juliopez/Hadoop.git
+<br>cd Hadoop
+<br>sudo docker-compose up -d
 
 *****
 Crear un archivo cualquiera por ejemplo: archivo.txt
