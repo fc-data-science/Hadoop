@@ -42,8 +42,6 @@ Luego distribuí el archivo con hdfs -put (esto dentro del contenedor NAMENODE d
 y después verifiqué que el archivo se habia distribuido
 /# hdfs dfs -ls /prueba
 
-# ----
-
 <br>Con esto completamos la instalación de Hadoop – HDFS -Spark -Hive- NiFi.
 ## Podemos comprobar la correcta ejecución de la siguiente forma. 
 <br>En un browser ingresar a http://localhost: `numero de puerto`
